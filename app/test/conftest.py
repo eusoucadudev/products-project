@@ -44,7 +44,7 @@ def product_on_db(db_session):
     db_session.commit()
 
     product = ProductModel(
-        name="Camisa Abidas",
+        name="Camisa Abibas",
         slug="camisa-abibas",
         price=100.99,
         stock=20,
